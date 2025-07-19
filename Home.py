@@ -1,8 +1,8 @@
 import streamlit as st
 
-st.set_page_config(page_title="Chem-Calc", page_icon="🧪", layout="wide")
+st.set_page_config(page_title="Kalkulator BM", page_icon="⚛️ ", layout="wide")
 
-# Gaya ala Valorant
+# Gaya website 
 st.markdown("""
     <style>
     body {
@@ -30,12 +30,12 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.markdown("<div class='title'>CHEM-CALC</div>", unsafe_allow_html=True)
-st.markdown("<div class='subtitle'>Kalkulator Berat Molekul | IUPAC 2007</div>", unsafe_allow_html=True)
+st.markdown("<div class='subtitle'>Kalkulator Berat Molekul | Kelompok 6</div>", unsafe_allow_html=True)
 
 st.markdown("<br>", unsafe_allow_html=True)
 
 # Tombol ke halaman kalkulator
 st.markdown("<div class='start-button'>", unsafe_allow_html=True)
-if st.button("🔬 KALKULATOR ADA DISINI", use_container_width=True):
+if st.button("⚛ KALKULATOR ADA DISINI", use_container_width=True):
     st.switch_page("pages/Kalkulator_BM.py")
 st.markdown("</div>", unsafe_allow_html=True)
