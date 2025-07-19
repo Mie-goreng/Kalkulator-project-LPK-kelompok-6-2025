@@ -29,7 +29,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.markdown("<div class='title'>CHEM-CALC</div>", unsafe_allow_html=True)
+st.markdown("<div class='title'>Kalkulator BM</div>", unsafe_allow_html=True)
 st.markdown("<div class='subtitle'>Kalkulator Berat Molekul | Kelompok 6</div>", unsafe_allow_html=True)
 
 st.markdown("<br>", unsafe_allow_html=True)
