@@ -32,7 +32,7 @@ def hitung_mr(rumus):
             return None
     return total
 
-rumus = st.text_input("Rumus Senyawa", "H2O")
+rumus = st.text_input("Rumus Senyawa", "")
 if st.button("Hitung"):
     hasil = hitung_mr(rumus)
     if hasil is not None:
