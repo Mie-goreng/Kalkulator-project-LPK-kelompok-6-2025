@@ -15,9 +15,9 @@ ar_data = {
     "Cs": 132.905, "Ce": 140.116, "Bi": 208.980, "Ir": 192.217
 }
 
-st.title("⚛️  Kalkulator Berat Molekul")
+st.title("⚛  Kalkulator Berat Molekul")
 
-st.markdown("Masukkan rumus senyawa, seperti `H2O`, `C6H12O6`, atau `MgO2H2` (Mg(OH)2).")
+st.markdown("Masukkan rumus senyawa, seperti `H2O`, `NaCl`. Gunakan format seperti ini: (contoh: `Mg(OH)2` menjadi `MgO2H2` .")
 
 def hitung_mr(rumus):
     pola = r'([A-Z][a-z]?)(\d*)'
