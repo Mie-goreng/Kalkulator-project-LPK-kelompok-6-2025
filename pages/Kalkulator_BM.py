@@ -1,7 +1,7 @@
 import streamlit as st
 import re
 
-st.set_page_config(page_title="Kalkulator Berat Molekul", page_icon="🧪", layout="centered")
+st.set_page_config(page_title="Kalkulator Berat Molekul", page_icon="⚛", layout="centered")
 
 ar_data = {
     "H": 1, "C": 12, "O": 16, "N": 14, "Cl": 35.45, "Br": 79.904, "B": 10.811,
