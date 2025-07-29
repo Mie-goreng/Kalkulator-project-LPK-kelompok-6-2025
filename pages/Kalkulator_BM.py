@@ -24,7 +24,7 @@ def hitung_mr(rumus):
     hasil = re.findall(pola, rumus)
     total = 0.0
     for unsur, jumlah in hasil:
-        jumlah = int(jumlah)
+        jumlah = int(jumlah) if jumlah else 1
         if unsur in ar_data:
             total += ar_data[unsur] * jumlah
         else:
